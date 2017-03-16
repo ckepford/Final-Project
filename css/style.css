@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+}
+.logo {
+    height:75px;
+}
+.logo-image {
+    display:inline-block;
+    margin-left: 45%;
+}
+
+/*****************Nav Styles*****************/
+
+.main-nav { 
+    background-color: #f5f5ef;
+    height:75px;
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+.container {
+    max-width:80%;
+    margin:0 auto;
+    
+}
+.nav-list { 
+    float:right;
+    list-style:none;
+}
+.nav-item {
+    float:left;
+    margin:20px;
+    font-size:17px;
+    font-family:'Hind', sans-serif;
+}
+.nav-link {
+    color:#fff;
+    text-shadow:1px 1px black;
+    text-decoration:none;
+    padding:10px 5px 10px 5px;
+}
+.nav-link:hover {
+    color:#a56328;
+}
+
+/*****************Hero Styles*****************/
+
+.hero-background {
+    background-image:url('../images/nasa-53883.jpg');
+    height:400px;
+    background-repeat:no-repeat;
+    margin-top:80px;
+    
+}
+.hero-text {
+    color:#fff;
+    font-family:'Permanent Marker', sans-serif;
+    font-size:80px;
+    font-style:italic;
+    text-align:center;
+    text-shadow:3px 2px #00384d;
+    padding:130px;
+}
+
+/*****************Column Styles*****************/
+
+section {
+    height:450px;
+    margin-top:40px;
+}
+.column {
+    width:31%;
+    height:225px;
+    float:left;
+    margin:10px 10px;
+    text-align:center;
+    border:1px solid #00384d;
+}
+.column-text {
+    color:#00384d;
+    font-family: 'Permanent Marker', Helvetica;
+    font-size:30px;
+    text-shadow:2px 2px #d3d3d3;
+}
+.column-icon {
+    color:#a56328;
+    font-size:15px
+}
+.column-links {
+    color: #d6a058;
+    font-size:100px;
+}
+
+/*****************Footer Styles*****************/
+
+.footer {
+    border-top:1px solid black;
+    background-color:#f5f5ef;
+    text-align:center;
+}
+.contact {
+    color:#004b66;
+    font-family: 'Hind', sans-serif;
+    margin-top:20px;
+}
+.social-links {
+    text-decoration:none;
+}
+.social-links > .fa {
+    color:#a56328;
+    font-size:40px;
+}
+
+/*****************About Page*****************/
+
+.about-container {
+    height:400px;
+    max-width:80%;
+    margin:85px auto;
+    background-color:#f7f3ed;
+}
+.about-image {
+    display: block;
+    max-width: 150px;
+    margin:25px 10px 25px 10px;
+    border-radius: 10px;
+    float:left;
+}
+.about-header {
+    color:#004b66;
+    font-style:italic;
+    font-family:'Permanent Marker', sans-serif;
+    text-shadow:1px 1px #d3d3d3;
+    float:right;
+    margin-right:35%;
+}
+.about-paragraph {
+    padding-top:80px;
+    font-family: 'Hind', sans-serif;
+    font-size:15px;
+}
+.about-button {
+    background-color:#004b66;
+    border-style:none;
+    padding:10px 15px;
+    border-radius:7px;
+    float:right;
+    margin-right:20px;
+    margin-bottom:50px;
+}
+.button-text {
+    color:#fff;
+    text-decoration: none;
+}
+/*******************Contact Styles*********************/
+
+.contact-container {
+    max-width:80%;
+    margin:125px auto 50px auto;
+    background-color:#fff;
+}
+.contact-header {
+    color:#004b66;
+    font-family:'Permanent Marker', sans-serif;
+    text-shadow:1px 1px #d3d3d3;
+    margin:0 40%;
+}
+h5 {
+    color:#a56328;
+   font-family:'Hind Light', sans-serif; 
+   font-style:italic;
+   font-size:16px;
+   text-align:center;
+}
+.iframe-container {
+    width:60%;
+    margin-left:20%;
+}
+.contact-column {
+    width:30%;
+    height:200px;
+    float:left;
+    margin:10px 10px;
+    text-align:center;
+}
+.contact-icon {
+    color:#004b66;
+    font-size:50px;
+}
+.contact-text {
+    color:#a56328;
+    font-family:'Hind', sans-serif;
+}
+.contact-link {
+    color:#a56328;
+    text-decoration: none;
+}
+.contact-link:hover {
+    color:#004b66;
+}
+
+/*******************Art/Photography/Gardening Styles*********************/
+
+.gallery-container {
+    margin:85px auto 200px auto;
+    max-width:80%;
+    background-color:#fff;
+}
+.gallery-image {
+    margin-left:20px;
+    margin-bottom:10px;
+}
