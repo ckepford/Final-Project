@@ -21,7 +21,6 @@ body {
 .container {
     max-width:80%;
     margin:0 auto;
-    
 }
 .nav-list { 
     float:right;
@@ -31,10 +30,10 @@ body {
     float:left;
     margin:20px;
     font-size:17px;
-    font-family:'Hind', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 .nav-link {
-    color:#fff;
+    color:#004b66;
     text-shadow:1px 1px black;
     text-decoration:none;
     padding:10px 5px 10px 5px;
@@ -43,23 +42,44 @@ body {
     color:#a56328;
 }
 
+
 /*****************Hero Styles*****************/
 
 .hero-background {
     background-image:url('../images/nasa-53883.jpg');
     height:400px;
+    max-width:100%;
     background-repeat:no-repeat;
     margin-top:80px;
     
 }
-.hero-text {
+.hero-welcome {
+    color:#fff;
+    font-family: 'Hind', sans-serif;
+    font-size:23px;
+    font-style:italic;
+    text-shadow:2px 1px #00384d;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 85px;
+}
+.hero-name {
     color:#fff;
     font-family:'Permanent Marker', sans-serif;
-    font-size:80px;
+    font-size:90px;
     font-style:italic;
     text-align:center;
     text-shadow:3px 2px #00384d;
-    padding:130px;
+    padding:95px 150px 0px;
+    margin:0 auto;
+}
+.hero-text {
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    text-align: center;
+    padding:0px 90px 10px;
+    margin-top:0;
 }
 
 /*****************Column Styles*****************/
@@ -72,7 +92,7 @@ section {
     width:31%;
     height:225px;
     float:left;
-    margin:10px 10px;
+    margin:140px 10px;
     text-align:center;
     border:1px solid #00384d;
 }
@@ -94,7 +114,7 @@ section {
 /*****************Footer Styles*****************/
 
 .footer {
-    border-top:1px solid black;
+    border-top:1px solid #004b66;
     background-color:#f5f5ef;
     text-align:center;
 }
@@ -116,12 +136,13 @@ section {
 .about-container {
     height:400px;
     max-width:80%;
-    margin:85px auto;
-    background-color:#f7f3ed;
+    margin:100px auto;
+    background-color:#e6c498;
+    padding-bottom: 30px;
 }
 .about-image {
     display: block;
-    max-width: 150px;
+    max-width: 100%;
     margin:25px 10px 25px 10px;
     border-radius: 10px;
     float:left;
@@ -133,9 +154,10 @@ section {
     text-shadow:1px 1px #d3d3d3;
     float:right;
     margin-right:35%;
+    border-bottom:2px dotted #004b66;
 }
 .about-paragraph {
-    padding-top:80px;
+    padding:80px 10px 0px;
     font-family: 'Hind', sans-serif;
     font-size:15px;
 }
@@ -156,8 +178,9 @@ section {
 
 .contact-container {
     max-width:80%;
-    margin:125px auto 50px auto;
+    margin:125px auto 0 auto;
     background-color:#fff;
+    border-bottom:2px dotted #004b66;
 }
 .contact-header {
     color:#004b66;
@@ -174,7 +197,11 @@ h5 {
 }
 .iframe-container {
     width:60%;
+    margin-top:2%;
     margin-left:20%;
+}
+.google-map {
+    margin:2% 26%;
 }
 .contact-column {
     width:30%;
@@ -207,6 +234,7 @@ h5 {
     background-color:#fff;
 }
 .gallery-image {
-    margin-left:20px;
+    max-width:100%;
+    margin-left:10px;
     margin-bottom:10px;
 }
